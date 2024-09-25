@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "insert-userdata-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/insertUserdata/InsertUserdataWebPart.js",
+          "manifest": "./src/webparts/insertUserdata/InsertUserdataWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InsertUserdataWebPartStrings": "lib/webparts/insertUserdata/loc/{locale}.js"
+  }
+}
